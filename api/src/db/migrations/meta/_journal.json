@@ -8,6 +8,13 @@
       "when": 1766095173822,
       "tag": "0000_graceful_silverclaw",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1767856095779,
+      "tag": "0001_tan_impossible_man",
+      "breakpoints": true
     }
   ]
 }

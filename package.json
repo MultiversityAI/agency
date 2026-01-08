@@ -24,6 +24,7 @@
     "db:sync": "bun run scripts/sync-db.ts"
   },
   "devDependencies": {
+    "@types/node": "^25.0.3",
     "turbo": "^2.6.3"
   },
   "packageManager": "bun@1.2.20"
