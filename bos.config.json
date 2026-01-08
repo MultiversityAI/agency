@@ -1,0 +1,29 @@
+{
+  "account": "agency.near",
+  "app": {
+    "host": {
+      "title": "agency",
+      "description": "NEAR AI application",
+      "development": "http://localhost:3001",
+      "production": "https://"
+    },
+    "ui": {
+      "name": "ui",
+      "development": "http://localhost:3002",
+      "production": "https://elliot-braem-1278-ui-every-plugin-near-everything-18c1ee2a2-ze.zephyrcloud.app",
+      "exposes": {
+        "App": "./App",
+        "components": "./components",
+        "providers": "./providers",
+        "types": "./types"
+      }
+    },
+    "api": {
+      "name": "api",
+      "development": "http://localhost:3014",
+      "production": "https://elliot-braem-1241-api-every-plugin-near-everythin-7ff3de0c9-ze.zephyrcloud.app",
+      "variables": {},
+      "secrets": ["API_DATABASE_URL", "API_DATABASE_AUTH_TOKEN"]
+    }
+  }
+}
